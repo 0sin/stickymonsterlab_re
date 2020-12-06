@@ -1,0 +1,175 @@
+{
+  "items": [
+    {
+      "type": "collaboration", 
+      "type2": "product", 
+      "image": "img/card_1.jpg",
+      "title": "ANTENNA SHOP X STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(255, 72, 31, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_2.gif",
+      "title": "GMF 2014 X STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(255, 221, 0, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_3.jpg",
+      "title": "GALAXY ALPHA X STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(204, 204, 204, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_4.jpg",
+      "title": "KOLONSPORT X STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(242, 51, 51, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_5.jpg",
+      "title": "Samsung Inverter Dehumidifier", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(53, 87, 143, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "image": "img/card_6.jpg",
+      "title": "ART TOY CULTURE X STICKY MONSTER LAB", 
+      "category": "Collaboration", 
+      "bgcolor": "rgba(255, 95, 87, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "image": "img/card_7.jpg",
+      "title": "ART TOY CULTURE X STICKY MONSTER LAB", 
+      "category": "Collaboration", 
+      "bgcolor": "rgba(255, 95, 87, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_8.jpg",
+      "title": "SURFACE 2", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(18, 42, 120, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_9.jpg",
+      "title": "360 SOUNDS X STICKY MONSTER LAB : GRAPHIC TEE", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(17, 17, 17, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_10.jpg",
+      "title": "REEBOK INSTAPUMP FURY X STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(253, 255, 64, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_11.jpg",
+      "title": "BARISTA X STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(241, 90, 34, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_12.jpg",
+      "title": "GRAFIK:PLASTIC x STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(161, 221, 73, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_13.gif",
+      "title": "GMF 2013 x STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(34, 194, 192, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_14.gif",
+      "title": "Cafri x STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(255, 221, 0, 0.95)"
+    },
+    {
+      "type": "animation", 
+      "type2": "collaboration",
+      "image": "img/card_15.gif",
+      "title": "belif wonderland", 
+      "category": "Animation and Collaboration", 
+      "bgcolor": "rgba(177, 245, 255, 0.95)"
+    },
+    {
+      "type": "animation", 
+      "type2": "collaboration",
+      "image": "img/card_16.jpg",
+      "title": "MTV UNDERDOG", 
+      "category": "Animation and Collaboration", 
+      "bgcolor": "rgba(0, 160, 248, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "image": "img/card_17.gif",
+      "title": "PYL", 
+      "category": "Collaboration", 
+      "bgcolor": "rgba(255, 93, 78, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_18.gif",
+      "title": "INSTAX MINI 8 x STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(37, 56, 122, 0.95)"
+    },
+    {
+      "type": "exhibition", 
+      "type2": "product",
+      "image": "img/card_19.jpg",
+      "title": "SML WARS / SS 001", 
+      "category": "Exhibition and Product", 
+      "bgcolor": "rgba(239, 102, 88, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "image": "img/card_20.jpg",
+      "title": "Monster Me", 
+      "category": "Collaboration", 
+      "bgcolor": "rgba(255, 241, 106, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "image": "img/card_21.gif",
+      "title": "Lotte Mall", 
+      "category": "Collaboration", 
+      "bgcolor": "rgba(179, 208, 54, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_22.gif",
+      "title": "The Rolling Stones x STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(254, 0, 0, 0.95)"
+    }    
+  ]
+}

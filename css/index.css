@@ -1,232 +1,63 @@
+#main {width: 100%; padding: 0 0 0 218px;}
 
-
- /* background img 사용방법 */
-article {
-   width: 338px;
-   height: 261px;
-   background: no-repeat center center;
-   background-size: cover;
-}
-
-.post_text {
-   width: 338px;
-   height: 261px;
-   padding: 261px 0 0 20px;
-   box-sizing: border-box;
-   display: block;
-   overflow: hidden;    
-   }
-
-.post_text:hover {
-   transition: all 0.4s;
-   padding: 130px 0 0 20px;
-   text-decoration: none;
-
+.card-container {
+   width: 100%; height: auto;
+   display: flex;
+   flex-flow: row wrap;
+   gap: 0; font-size: 0;
 }
 
-.base_align {
-   width: 200px;
-   height: 100px;
-   /* vertical-align: bottom; */
-   box-sizing: border-box;
+.card-item {
+   /* 16px = 스크롤너비 */
+   width: calc((100vw - 218px - 16px)/5); 
+   height: calc(((100vw - 218px)/5)/1.3);
+   color: var(--text-white);
 }
 
-#post_001 {background-image: url(../img/front2.jpg);}
-#post_002 {background-image: url(../img/GMF_front.gif);}
-#post_003 {background-image: url(../img/alpha.jpg);}
-#post_004 {background-image: url(../img/F1.jpg);}
-#post_005 {background-image: url(../img/s-bear_front.jpg)}
-#post_006 {background-image: url(../img/F-.jpg);}
-#post_007 {background-image: url(../img/front.jpg)}
-#post_008 {background-image: url(../img/F.jpg);}
-#post_009 {background-image: url(../img/front-.jpg);}
-#post_010 {
-   background-image: url(../img/reebok.jpg);
-}
-#post_011 {
-   background-image: url(../img/baristar_front.jpg);
-}
-#post_012 {
-   background-image: url(../img/p38_re.jpg);
-}
-#post_013 {
-   background-image: url(../img/GMF_front041.gif);
-}
-#post_014 {
-   background-image: url(../img/p37_re.gif);
-}
-#post_015 {
-   background-image: url(../img/p36_re.gif);
-}
-#post_016 {
-   background-image: url(../img/p35_re.jpg);
-}
-#post_017 {
-   background-image: url(../img/pyl_front_re.gif);
-}
-#post_018 {
-   background-image: url(../img/bomb_front_re.gif);
-}
-#post_019 {
-   background-image: url(../img/p27_re.jpg);
-}
-#post_020 {
-   background-image: url(../img/p26_re.jpg);
-}
-#post_021 {
-   background-image: url(../img/lotte_front_re.gif);
-}
-#post_022 {
-   background-image: url(../img/RS_front_re.gif);
-}
-#post_023 {
-   background-image: url(../img/myhero_front_re02.gif);
-}
-#post_024 {
-   background-image: url(../img/p25_re.gif);
-}
-#post_025 {
-   background-image: url(../img/reportn_front_re.jpg);
-}
-#post_026 {
-   background-image: url(../img/save_front02_re.gif);
-}
-#post_027 {
-   background-image: url(../img/oo_front_re.gif);
-}
-#post_028 {
-   background-image: url(../img/p39_re.gif);
-}
-#post_029 {
-   background-image: url(../img/k11_front_02_re.gif);
-}
-#post_030 {
-   background-image: url(../img/PPbysml_front_re.gif);
-}
-#post_031 {
-   background-image: url(../img/p30_re.jpg);
-}
-#post_032 {
-   background-image: url(../img/p23_re.jpg);
-}
-#post_033 {
-   background-image: url(../img/pain_front_re.gif);
-}
-#post_034 {
-   background-image: url(../img/p22_re.jpg);
-}
-#post_035 {
-   background-image: url(../img/loner_front_re.gif);
-}
-#post_036 {
-   background-image: url(../img/p20_re.gif);
-}
-#post_037 {
-   background-image: url(../img/5050_front_re.gif);
-}
-#post_038 {
-   background-image: url(../img/swbk_front_re.jpg);
-}
-#post_039 {
-   background-image: url(../img/kinki_front_re.gif);
-}
-#post_040 {
-   background-image: url(../img/p32_re.gif);
+.item-wrap {
+   width: 100%; height: 100%;
+   position: relative;
 }
 
-#post_001 a:hover {
-background-color: rgba(255, 72, 31, 0.95);
+.item-wrap a {display: block; width: 100%; height: 100%;}
+
+.item-wrap a img {width: 100%; height:100%;}
+
+.txt-container {
+   width: 100%; height: auto;
+   position: absolute; bottom: 0; left: 0; right: 0;
 }
-#post_002 a:hover {
-background-color: rgba(225, 221, 0, 0.95);
+.txt-wrap {
+   padding: 30px;
+   position: absolute; bottom: 0; 
+   z-index: 2; opacity: 0; 
+   transition: all 0.6s;
 }
-#post_003 a:hover {
-background-color: rgba(204, 204, 204, 0.95);
+.bgcolor {opacity: 0; transition: all 0.4s;}
+
+.card-item:hover .txt-container {height: 100%;}
+.card-item:hover .bgcolor {
+   width: 100%; height: 100%;
+   position: absolute; top: 0; left: 0; right: 0;
+   z-index: 1; opacity: 1;
 }
-#post_004 a:hover {
-background-color: rgba(242, 51, 51, 0.95);
+.card-item:hover .txt-wrap {
+   position: absolute; bottom: 18%; 
+   z-index: 2; opacity: 1;
 }
-#post_005 a:hover {
-background-color: rgba(53, 87, 143, 0.95);
+
+.txt-title {
+   font-size: 15px; line-height: 26px;
+   margin: 0; text-transform: uppercase;
+   font-weight: 700; letter-spacing: 1px;
+   margin: 0 0 4px;
+   z-index: 2;
 }
-#post_006 a:hover {
-background-color: rgba(74, 149, 230, 0.95);
+.txt-category {
+   font-size: 10px; text-transform: uppercase;
+   font-weight: 500; 
 }
-#post_007 a:hover {
-background-color: rgba(225, 95, 87, 0.95);
-}
-#post_008 a:hover {
-background-color: rgba(18, 42, 120, 0.95);
-}
-#post_009 a:hover {
-background-color: rgba(17,17,17, 0.95);
-}
-#post_010 a:hover {
-background-color: rgba(253,255,64, 0.95);
-}
-#post_011 a:hover {
-background-color: rgba(241,90,34, 0.95);
-}
-#post_012 a:hover {
-background-color: rgba(161,221,73, 0.95);
-}
-#post_013 a:hover {
-background-color: rgba(34,194,192, 0.95);
-}
-#post_014 a:hover {
-background-color: rgba(255,221,0, 0.95);
-}
-#post_015 a:hover {
-background-color: rgba(177,245,255, 0.95);
-}
-#post_016 a:hover {
-background-color: rgba(0,160,248, 0.95);
-}
-#post_017 a:hover {
-background-color: rgba(225, 93, 78, 0.95);
-}
-#post_018 a:hover {
-background-color: rgba(37,56,122, 0.95);
-}
-#post_019 a:hover {
-background-color: rgba(239,102,88, 0.95);
-}
-#post_020 a:hover {
-background-color: rgba(255,241,106, 0.95);
-}
-#post_021 a:hover {
-background-color: rgba(179,208,54, 0.95);
-}
-#post_022 a:hover {
-background-color: rgba(254,0,0, 0.95);
-}
-#post_023 a:hover {
-background-color: rgba(92,201,206, 0.95);
-}
-#post_024 a:hover {
-background-color: rgba(169,219,216, 0.95);
-}
-#post_025 a:hover {
-background-color: rgba(250,112,119, 0.95);
-}
-#post_026 a:hover {
-background-color: rgba(246,28,0, 0.95);
-}
-#post_027 a:hover {
-background-color: rgba(255,241,0, 0.95);
-}
-#post_028 a:hover {
-background-color: rgba(17,17,17, 0.95);
-}
-#post_029 a:hover {
-background-color: rgba(218,219,203, 0.95);
-}
-#post_030 a:hover {
-background-color: rgba(17,17,17, 0.95);
-}
-#post_031 a:hover {
-background-color: rgba(17,17,17, 0.95);
-}
-#post_032 a:hover {
-background-color: rgba(0,162,130, 0.95);
-}
+
+.invisible {display: none;}
+
+/* .text-wrap {transition: all 0.3s ease-out;} */

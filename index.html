@@ -3,7 +3,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sticky Monster Lab | SML official site</title>
-   <link rel="stylesheet" href="css/index_responsive.css">
+   <link rel="stylesheet" href="css/common.css">
+   <link rel="stylesheet" href="css/index.css">
 
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
@@ -18,12 +19,78 @@
 
 
 <body>
-
-   <header id="home_header">
-      <nav id="gnb">
-         <figure>
-            <a href=""><img src="img/new-logo_black.png"></a>
+   <header id="header-pc">
+      <nav id="gnb-pc">
+         <figure class="logo-box">
+            <a href="index.html">
+               <img src="img/new-logo_black.png" alt="Sticky Monster Lab">
+            </a>
          </figure>
+         <ul class="gnb-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop +</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+
+         <ul class="gnb-work">
+            <!-- data-filter="*", ".animation" -->
+            <li><a href="#" id="all">- all</a></li>
+            <div class="work-category">
+            <li><a href="#" data-key="type" data-sub="type2" data-value="animation">- animation</a></li>
+            <li><a href="#" data-key="type" data-sub="type2" data-value="collaboration">- collaboration</a></li>
+            <li><a href="#" data-key="type" data-sub="type2" data-value="exhibition">- exhibition</a></li>
+            <li><a href="#" data-key="type" data-sub="type2" data-value="product">- product</a></li>
+            </div>
+         </ul>
+      </nav>      
+   </header>
+
+   <footer id="footer-info">
+      <figure class="socialwrap">
+         <a href="#" class="social"><img src="img/facebook.png"></a>
+         <a href="#" class="social"><img src="img/vimeo.png"></a>
+      </figure>
+      <p>COPYRIGHT &copy; 2014. ALL RIGHTS RESERVED.</p>
+   </footer>
+
+   <main id="main">
+      <div class="card-container">
+
+         <article class="card-item">
+            <div class="item-wrap">
+               <a href="#" rel="bookmark">
+                  <img src="img/card_1.jpg">
+                  <div class="txt-container">
+                     <div class="bgcolor"></div>
+                     <div class="txt-wrap">
+                        <h2 class="txt-title">ANTENNA SHOP X STICKY MONSTER LAB</h2>
+                        <p class="txt-category">Collaboration and Product</p>
+
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </article>
+
+      </div>
+   </main>
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <header id="home_header">
+      <nav id="gnb">
+         
          <ul class="gnb_menu">
             <li><a href="#">About</a></li>
             <li><a href="#">Work</a></li>
@@ -77,20 +144,10 @@
          </figure>
          <div class="gnb_m_menu_button" onclick="gnb_m_open();"><i class="fas fa-bars"></i></div>
       </nav>
-   </header>
+   </header> -->
 
-
-   <main>
-      
-
-   </main>
 
    <!-- <script>
-      document.getElementById('post_001').style="display:none;"
-   </script> -->
-
-
-   <script>
 
       function gnb_shop_mouseover() 
       {
@@ -120,8 +177,9 @@
          }
       }
 
-   </script>
+   </script> -->
 
 
+   <script src="js/main.js"></script>
 </body>
 </html>
