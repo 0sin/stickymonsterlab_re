@@ -35,7 +35,7 @@ body {
 
 
 
-/* HEADER */
+/* HEADER PC */
 
 #header-pc {
   width: 158px; padding: 30px; 
@@ -80,3 +80,49 @@ body {
 .social img {width: 100%;}
 
 #footer-info p {padding: 16px 0 0;}
+
+
+/* HEADER MOBILE */
+#header-mobile {display: none;}
+.header-mobile-acc-menu {display: none;}
+
+
+
+@media screen and (max-width: 960px) {
+  #header-pc {display: none;}
+  #footer-info {display: none;}
+
+
+  .header-mobile-acc-menu {
+    display: block;
+    height: 500px;
+    background-color: var(--text-gray);
+    color: var(--text-white);
+  }
+
+  #header-mobile {
+    display: flex; justify-content: space-between;
+    padding: 20px 30px; 
+    color: var(--text-gray); background-color: #ffffff; 
+    z-index: 100; box-sizing: content-box;
+  }
+  
+  .logo-box-mobile a {display: block;}
+  .logo-box-mobile a img {width: 63px;}
+
+  .mobile-menu {
+    font-size: 14px; letter-spacing: 2px;
+    font-weight: 400; text-transform: uppercase;
+    color: var(--text-black);
+  }
+
+
+  #main {width: 100%; padding:0;}
+  .card-item {
+     width: calc((100vw - 16px)/4); 
+     height: calc((100vw/4)/1.3);
+  }
+}
+
+
+

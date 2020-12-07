@@ -170,6 +170,182 @@
       "title": "The Rolling Stones x STICKY MONSTER LAB", 
       "category": "Collaboration and Product", 
       "bgcolor": "rgba(254, 0, 0, 0.95)"
-    }    
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_23.gif",
+      "title": "My Friend, My Hero / Art-Toy Collection", 
+      "category": "Exhibition", 
+      "bgcolor": "rgba(92, 201, 206, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_24.gif",
+      "title": "Mr.POSTER / I AM NOT ALONE", 
+      "category": "Product", 
+      "bgcolor": "rgba(169, 219, 216, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_25.jpg",
+      "title": "REPORT M: the very first prequel of a true monster", 
+      "category": "Animation and Product", 
+      "bgcolor": "rgba(250, 112, 119, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_26.gif",
+      "title": "Save the Children", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(246, 28, 0, 0.95)"
+    },   
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_27.gif",
+      "title": "OOUTLET", 
+      "category": "Exhibition and Product", 
+      "bgcolor": "rgba(255, 241, 0, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_28.gif",
+      "title": "NIKE SPORTSWEAR: MY TIME IS NOW", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(17, 17, 17, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_29.gif",
+      "title": "Public Fair No.1 HONG KONG", 
+      "category": "Exhibition", 
+      "bgcolor": "rgba(218, 219, 203, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_30.gif",
+      "title": "PP by SML", 
+      "category": "Exhibition and Product", 
+      "bgcolor": "rgba(17, 17, 17, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_31.jpg",
+      "title": "NISSAN CUBE x STICKY MONSTER LAB", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(17, 17, 17, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_32.jpg",
+      "title": "BEAN POLE x STICKY MONSTER LAB", 
+      "category": "Animation, Collaboration and Product", 
+      "bgcolor": "rgba(0, 162, 130, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_33.gif",
+      "title": "The Pains of Being Pure at Heart Poster", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(214, 193, 148, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_34.jpg",
+      "title": "INCASE x STICKY MONSTER LAB", 
+      "category": "Animation, Collaboration and Product", 
+      "bgcolor": "rgba(236, 63, 63, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_35.gif",
+      "title": "‘The Loner’ compilation album", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(17, 17, 17, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_36.gif",
+      "title": "The Loner", 
+      "category": "Animation", 
+      "bgcolor": "rgba(89, 195, 195, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_37.gif",
+      "title": "50/50", 
+      "category": "Animation, Collaboration and Product", 
+      "bgcolor": "rgba(172, 207, 227, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_38.jpg",
+      "title": "SWBK X STICKY MONSTER LAB", 
+      "category": "Collaboration, Exhibition and Product", 
+      "bgcolor": "rgba(171, 109, 77, 0.95)"
+    },  
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_39.gif",
+      "title": "Kinki Robot Shop Graphic", 
+      "category": "Collaboration", 
+      "bgcolor": "rgba(52, 189, 208, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_40.gif",
+      "title": "NIKE SPORTSWEAR: Always on", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(0, 139, 208, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_41.gif",
+      "title": "03 by STICKY MONSTER LAB", 
+      "category": "Exhibition", 
+      "bgcolor": "rgba(1, 184, 40, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_42.jpg",
+      "title": "SML Art toy M01-04 / S01-04", 
+      "category": "Collaboration and Product", 
+      "bgcolor": "rgba(253, 160, 54, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_43.gif",
+      "title": "CJ ONE", 
+      "category": "Animation, Collaboration and Product", 
+      "bgcolor": "rgba(88, 60, 38, 0.95)"
+    },
+    {
+      "type": "collaboration", 
+      "type2": "product",
+      "image": "img/card_44.gif",
+      "title": "IdN 100th Issue", 
+      "category": "Animation and Exhibition", 
+      "bgcolor": "rgba(93, 254, 109, 0.95)"
+    }
   ]
 }
