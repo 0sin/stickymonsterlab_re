@@ -1,15 +1,13 @@
-#main {width: 100%; padding: 0 0 0 218px;}
-
+/* MAIN */
 .card-container {
    width: 100%; height: auto;
+   padding: 0 0 0 218px;
    display: flex;
    flex-flow: row wrap;
-   gap: 0; font-size: 0;
 }
 
 .card-item {
-   /* 16px = 스크롤너비 */
-   width: calc((100vw - 218px - 16px)/5); 
+   width: 20%; 
    height: calc(((100vw - 218px)/5)/1.3);
    color: var(--text-white);
 }
@@ -63,9 +61,9 @@
 /* .text-wrap {transition: all 0.3s ease-out;} */
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
    .card-item {
-      width: calc((100vw - 218px - 16px)/4); 
+      width: 25%; 
       height: calc(((100vw - 218px)/4)/1.3);
    }
 
@@ -76,22 +74,32 @@
 @media screen and (max-width: 960px) {
    #header-pc {display: none;}
    #footer-info {display: none;}
-   #main {width: 100%; padding:0;}
+   .card-container {padding: 0;}
    .card-item {
-      width: calc((100vw - 16px)/4); 
+      width: 25%;
       height: calc((100vw/4)/1.3);
+      /* flex: 1 1 25%; */
    }
 }
 
+
 @media screen and (max-width: 770px) {
    .card-item {
-      width: calc((100vw - 16px)/3); 
+      width: 33.33333333%; 
       height: calc((100vw/3)/1.3);
    }
    .txt-wrap {padding: 10px;}
    .card-item:hover .txt-container {bottom: 0;}
    .card-item:hover .bgcolor {opacity: 0;}
    .card-item:hover .txt-wrap {opacity: 0;}
+}
+
+
+@media screen and (max-width: 500px) {
+   .card-item {
+      width: 100%; 
+      height: calc(100vw/1.3);
+   } 
 }
 
 

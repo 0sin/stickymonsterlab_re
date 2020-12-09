@@ -85,3 +85,25 @@ loadItems()
     setEventListeners(items);
 })
 .catch(console.log);
+
+
+
+
+
+// Acc Open 
+
+const mobileMenuBtn = document.querySelector('.mobile-menu')
+const accMenu = document.querySelector('.header-mobile-acc-menu')
+let accCondition = 0;
+
+mobileMenuBtn.addEventListener('click', accOpen);
+
+function accOpen() {
+  if(accCondition == 0) {
+  accMenu.style.maxHeight = "800";
+  accCondition = 1;
+  } else {
+    accMenu.style.maxHeight = "0";
+    accCondition = 0;
+  }
+}
